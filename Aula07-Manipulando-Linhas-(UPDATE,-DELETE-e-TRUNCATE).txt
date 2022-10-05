@@ -1,0 +1,27 @@
+Comando "UPDATA" (modifica Linhas){
+
+<<update NomeDaTabela 
+set NomeLinha(s) = ''
+where idDaLinha =  '';
+limit N°daLinha;<ParaLimitarOComandoEmUmaLinha>
+>>
+<--Modifica uma linha:
+update cursos
+set nome = 'HTML5'
+where idcursos = '1';
+
+<--Modifica mais de uma coluna:
+update cursos
+set nome = 'NovoNome', ano = 'NovoAno'
+where idcursos = '4';
+}
+----------------------------------------------------------------
+Comando "DELETE" (apaga umma linha){
+delete from NomeDaTabela
+where ano = '228283'
+limit n°;
+}
+
+Comando "TRUNCATE" (apaga todas as linhas da tabela){
+	trucate NomeDaTabela;
+}

@@ -1,0 +1,15 @@
+Aula05 - Inserindo-dados-na-tabela
+-----------------------------
+COMANDO INSERT INTO:
+
+    insert into NomeDaTabela
+        (campo1, campo2 campo3 ...) 
+    values
+        (parametro1, parametro2, ...)
+
+    insert into NomeDaTabela values ( parametro1, parametro2, ...)
+    //se os valores adicionados forem na mesma ordem da tabela
+    //pode omitir os parametros dela de dessa forma ai
+    //dessar forma precisa deixar explicito a chave primeria como de
+    //fault
+-----------------------------

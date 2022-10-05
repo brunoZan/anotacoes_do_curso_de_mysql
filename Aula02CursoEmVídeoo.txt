@@ -1,0 +1,22 @@
+Aula02CursoEmVídeo
+
+CaracterísticasDeUmaBoaTransação {
+D urabilidade
+I solamento
+C onsistência
+A Tomicidade
+}
+---------------------------------------------------------------
+DDL ==> Data Definittion Language
+DML ==> Data Manipulation Language
+---------------------------------------------------------------
+CREATE DATABASE
+CREATE TABLE
+---------------------------------------------------------------
+Aula05
+(se a hordem que os dados seram na mesma ordem das propriedades ñ ha necessidade de dable as propriedadeds)
+INSERT INTO nameTabela VALUES
+(valores que seram adicionadods);
+---------------------------------------------------------------
+
+

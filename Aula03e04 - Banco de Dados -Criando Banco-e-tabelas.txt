@@ -1,0 +1,32 @@
+Aula03 - Banco de Dados -Criando Banco-e-tabelas
+
+create database Nome-do-Banco-De-Dados;
+create table Nome-da-tabela(
+    propriedade tipo,
+    propriedade tipo(),
+);
+exp:
+    create table pessoa(
+        id int not null outo_increment,
+        nome varchar(30) not null,
+        nascimento data() not null,
+        altura decimal(3, 2),
+        sexo unum('M', 'F'),
+        nacionalidade varchar(30) default 'Brasil',
+        peso decimal(5, 2),
+        primary key (id)
+) default charset = utf-8;
+
+(formatação de caracteres acentuados)
+create database cursos 
+default charset set utf-8 
+default collate utf8_generaç_ci;
+
+
+CREATE TABLE produtos(
+id int not null auto_increment,
+genero varchar(10) not null,
+produto varchar(15),
+`preço` decimal(5, 2),
+primary key(id)
+) default charset = utf8;

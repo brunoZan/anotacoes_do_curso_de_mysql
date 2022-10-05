@@ -1,0 +1,53 @@
+Aula06 ALTERANDO A ESTRUTURA DA TABELA
+(alterar tabela)
+Comando ALTER TABLE {
+	(Adicionar uma coluna)
+	ALTER TABLE
+		alter table NomeDaTabela
+		add column NomeDacoluna tipo();
+
+	<-Adicionar coluna em local expecífico->
+	add column coluna tipo() AFTER colunadeReferencia
+	add column coluna tipo() FIRST
+
+<-alterando as propriedades da coluna->
+	alter table tabela
+	modify column NomeColuna tipo()  
+
+<-Alterar o nome da coluna->
+	alter table tabela
+	change column nomeColuna NovoNome tipo()
+	//se o campo tiver constrants tem que declarar explicitamente
+	//aqui novamente
+
+<-Alterar nome da Tabela->
+	Alter talbe tabela
+	rename to novoNomeTabela;
+
+<-cria a tabela se não existir uma outra com o mesmo nome->
+CREATE TABLE IF NOT EXIST tabela()
+
+<- adicionar uma chave primaria->
+alter table NomeDaTabela
+add primary key (propQdeveSerAChavPrimaria);
+
+}
+
+Comando DROP {
+	
+	<-apagar uma tabela->
+		drop table nometabela;
+				ou
+		drop if exist nomeTabela;
+	
+	<-Apagar uma coluna->
+		alter table nomeDaTabela
+		drop column colunaName
+
+
+}
+
+
+pra evitar complitos em campos mahora de modificar
+ele pro exemplo com a contrant not null usasse: default ''
+pra evitar complitos de compo vazio

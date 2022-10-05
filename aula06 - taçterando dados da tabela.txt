@@ -1,0 +1,15 @@
+Contrants:
+	UNIQUE
+	o valor passado dentro de um campo UNIQUE deve ser unico na
+	tabela 
+
+	UNDIGNED
+	deixa os numeros sem sinal: ficam todos positivos
+
+	pra tabela:
+	IF NOT EXISTS
+	ex: create table if not exists nameTable( nome int);
+
+
+nao dá pra adicionar a chave primeria e colocar ela como chave primaria
+au mesmo tempo 
