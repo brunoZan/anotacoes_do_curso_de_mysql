@@ -14,13 +14,20 @@ where idcursos = '1';
 update cursos
 set nome = 'NovoNome', ano = 'NovoAno'
 where idcursos = '4';
+//usa-se uma virgula como separador dos campos que vao ser alterados.
 }
 ----------------------------------------------------------------
 Comando "DELETE" (apaga umma linha){
 delete from NomeDaTabela
-where ano = '228283'
+where id = '228283'
 limit n°;
 }
+//esse "limit" limita a possibilidade de alterar mais 
+//de uma linha por vez.
+
+//se usar um campo que se repete como parametro, todas as linhas
+que tem esse parametro vao ser deletadas
+//uma  boa pratica é usar o "limit" pra evitar beiteiras
 
 Comando "TRUNCATE" (apaga todas as linhas da tabela){
 	trucate NomeDaTabela;
